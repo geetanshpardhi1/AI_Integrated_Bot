@@ -55,4 +55,4 @@ class ChatDataset(Dataset):
 batch_size = 8
 dataset = ChatDataset()
 train_loader = DataLoader(dataset=dataset , batch_size=batch_size.shuffle = True ,num_workers =2)
-jkkh
+jkkhggg
