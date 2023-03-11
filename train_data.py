@@ -5,7 +5,7 @@ import torch.nn as nn
 from torch.utils.data import Dataset , DataLoader
 from nltk_utility import tokenize, stem, bag_of_words
 
-with open("intents.json",'r') as f:
+with open("trained_dic.json",'r') as f:
     intents = json.load(f)
     
 print(intents)
