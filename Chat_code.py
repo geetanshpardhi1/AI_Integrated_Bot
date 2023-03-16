@@ -34,7 +34,7 @@ while True:
     sentence = tokenize(sentence)
     X = bag_of_words(sentence,all_words)
     X = X.reshape(1, X.shape[0])
-    X = torch.from_numpy(X)
+    X = torch.from_numpy(X).to(device)
     
     output = model(X)
     _, predicted = torch.max(output, dim=1)
@@ -47,8 +47,8 @@ while True:
     if prob.item() > 0.75:
     
         for intent in intents["intents"]:
-            if tag == intent["tags"]:
-                print(f"{bot_name}:{random.choice(intent['responses'])}")
+            if tag == intent["tag"]:
+                print(f"{bot_name} :-  {random.choice(intent['responses'])}")
     else :
           print(f"{bot_name}: I do not Understand (*_*) ")      
     
