@@ -67,7 +67,18 @@
           "admission will open from 20th april",
           "admission opens from 20th april"
         ]
+      },
+      {
+        "tag": "admission_open",
+        "patterns": [
+          "admission opening date",
+          "admission inquiry",
+          "when will admission open!"
+        ],
+        "responses": [
+          "admission will open from 20th april",
+          "admission opens from 20th april"
+        ]
       }
-      
     ]
   }
