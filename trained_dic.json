@@ -57,18 +57,6 @@
         ]
       },
       {
-        "tag": "delivery",
-        "patterns": [
-          "How long does delivery take?",
-          "How long does shipping take?",
-          "When do I get my delivery?"
-        ],
-        "responses": [
-          "Delivery takes 2-4 days",
-          "Shipping takes 2-4 days"
-        ]
-      },
-      {
         "tag": "admission_open",
         "patterns": [
           "admission opening date",
@@ -79,18 +67,7 @@
           "admission will open from 20th april",
           "admission opens from 20th april"
         ]
-      },
-      {
-      "tag": "admission_open",
-      "patterns": [
-        "admission opening date",
-        "admission inquiry",
-        "when will admission open!"
-      ],
-      "responses": [
-        "admission will open from 20th april",
-        "admission opens from 20th april"
-        ]
       }
+      
     ]
   }
