@@ -79,6 +79,30 @@
           "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
           "What did the buffalo say when his son left for college? Bison."
         ]
+      },
+      {
+        "tag": "admission_open",
+        "patterns": [
+          "admission opening date",
+          "admission inquiry",
+          "when will admission open!"
+        ],
+        "responses": [
+          "admission will open from 20th april",
+          "admission opens from 20th april"
+        ]
+      },
+      {
+      "tag": "admission_open",
+      "patterns": [
+        "admission opening date",
+        "admission inquiry",
+        "when will admission open!"
+      ],
+      "responses": [
+        "admission will open from 20th april",
+        "admission opens from 20th april"
+        ]
       }
     ]
   }
