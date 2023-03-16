@@ -93,3 +93,22 @@ for epoch in range(num_epochs):
 
 print(f'final loss, loss = {loss.item():.4f}')
 
+
+#save/load model
+
+data = {
+    "model_state" : model.state_dict(),
+    "input_size" : input_size,
+    "output_size" : output_size,
+    "hiddent_size": hidden_size,
+    "all_words": all_words,
+    "tags": tags
+}
+FILE = "data.pth"
+torch.save(data,FILE)
+
+print (f'training session completed.!! File saved to {FILE}')
+
+#implementing chats
+
+
