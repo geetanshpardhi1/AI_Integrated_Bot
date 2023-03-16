@@ -100,7 +100,7 @@ data = {
     "model_state" : model.state_dict(),
     "input_size" : input_size,
     "output_size" : output_size,
-    "hiddent_size": hidden_size,
+    "hidden_size": hidden_size,
     "all_words": all_words,
     "tags": tags
 }
@@ -109,6 +109,5 @@ torch.save(data,FILE)
 
 print (f'training session completed.!! File saved to {FILE}')
 
-#implementing chats
 
 
