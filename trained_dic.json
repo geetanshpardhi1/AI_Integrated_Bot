@@ -69,10 +69,10 @@
         ]
       },
       {
-        "tag": "admission_open",
+        "tag": "Fee details",
         "patterns": [
-          "admission opening date",
-          "admission inquiry",
+          "courses fee details",
+          "fee inquiry",
           "when will admission open!"
         ],
         "responses": [
