@@ -137,7 +137,8 @@
           "Are there any discounts available for students who frequently use the buses?",
           "What is the best route to take to get to campus by bus?",
           "How much does it cost to ride the bus here?",
-          "How much are the bus fees charges!"
+          "How much are the bus fees charges!",
+          ""
         ],
         "responses": [
           "Bus facilities are available in campus",
