@@ -32,18 +32,6 @@
         "responses": ["Happy to help!", "Any time!", "My pleasure"]
       },
       {
-        "tag": "items",
-        "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
-        ],
-        "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
-        ]
-      },
-      {
         "tag": "payments",
         "patterns": [
           "Do you take credit cards?",
@@ -69,6 +57,7 @@
         ]
       },
       {
+<<<<<<< HEAD
         "tag": "computer science engineering program",
         "patterns": ["CSE","cse course", "computer science engineering program",
          "How much fees to attend the computer science engineering program?",
@@ -145,6 +134,83 @@
           "Bus facilities are available in campus for students",
           "Buses charges are depend on courses",
           "Yes, You get bus pass from the Course Department"
+=======
+        "tag": "Bba_Fee_Inquiry",
+        "patterns": [
+          "What are the charges for BBA course?",
+          "What is the cost of this BBA coursee?",
+          "How much do you charge for BBA course?",
+          "What is the price for BBA course?",
+          "What is the fee for BBA course?",
+          "How much will I have to pay for BBA course?",
+          "What is the rate for BBA course?",
+          "What is the tariff for BBA course?",
+          "What is the expense for BBA course?"
+          
+        ],
+        "responses": [
+          "It cost 60,000 rs for a year",
+          "It cost 60,000/year"
+        ]
+      },
+      {
+        "tag": "MBA_Fee_Inquiry",
+        "patterns": [
+          "What are the charges for MBA course?",
+          "What is the cost of this MBA coursee?",
+          "How much do you charge for MBA course?",
+          "What is the price for MBA course?",
+          "What is the fee for MBA course?",
+          "How much will I have to pay for MBA course?",
+          "What is the rate for MBA course?",
+          "What is the tariff for MBA course?",
+          "What is the expense for MBA course?"
+          
+        ],
+        "responses": [
+          "It cost 80,000 rs for a year",
+          "It cost 80,000/year"
+        ]
+      },
+      {
+        "tag": "college_rating",
+        "patterns": [
+          "What is the ranking of this college in India?",
+          "How does this college rank in India?",
+          "What is the reputation of this college in India?",
+          "What is the standing of this college in India?",
+          "What is the position of this college in India's rankings?",
+          "How well-regarded is this college in India?",
+          "What is the score of this college in India's ranking system?",
+          "How does this college compare to others in India?",
+          "What is the grade of this college in India's rating system?",
+          "How is this college evaluated in India's ranking scheme?"
+          
+        ],
+        "responses": [
+          "IPS Academy, Indore Overall ranking by India Today is 55 out of 178 colleges in India in 2021 and it was 51 out of 120 colleges in India in 2020."
+        ]
+      },
+      {
+        "tag": "hostel_facilities",
+        "patterns": [
+          "Is there accommodation available on campus?",
+          "Are there dormitory facilities provided by the college?",
+          "Is there a hostel for students to stay in?",
+          "Does the college offer housing for students?",
+          "What are the lodging options available for students?",
+          "Is there a residential facility provided by the college?",
+          "Are there living arrangements provided for students?",
+          "Is there a place for students to stay on campus?",
+          "Are there boarding facilities available for students?",
+          "What are the housing provisions for students at the college?",
+          "hostel available for students ?"
+          
+        ],
+        "responses": [
+          "Yes , It's available,but unfortunately only for girls",
+          "It's only available for girls"
+>>>>>>> main
         ]
       }
     ]
