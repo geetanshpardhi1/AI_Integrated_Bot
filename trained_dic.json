@@ -133,6 +133,25 @@
           "Yes , It's available,but unfortunately only for girls",
           "It's only available for girls"
         ]
+      },
+      {
+        "tag": "btech_Fee_Inquiry",
+        "patterns": [
+          "What are the charges for btech course?",
+          "What is the cost of this btech coursee?",
+          "How much do you charge for btech course?",
+          "What is the price for btech course?",
+          "What is the fee for btech course?",
+          "How much will I have to pay for btech course?",
+          "What is the rate for btech course?",
+          "What is the tariff for btech course?",
+          "What is the expense for btech course?"
+          
+        ],
+        "responses": [
+          "It cost 1 lakh for a year",
+          "It cost 1 lakh/year"
+        ]
       }
     ]
   }
