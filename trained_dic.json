@@ -57,6 +57,84 @@
         ]
       },
       {
+<<<<<<< HEAD
+        "tag": "computer science engineering program",
+        "patterns": ["CSE","cse course", "computer science engineering program",
+         "How much fees to attend the computer science engineering program?",
+         "How much does the tuition cost increase each year?",
+         "Are there any grants or scholarship available specifically for computer science engineering students?",
+         "Are there any tuition fees discounts or scholarship for high-performing students or those with specific academic backgrounds?",
+         "Are there any additional fees associated with the computer science course program?"
+        ],
+        "responses": [
+          "Computer science engineering will be 1,15000 rupees",
+          "It depends on campus management",
+          "Our institute provide scholarship by governments",
+          "Our institute not charge additional fees"
+        ]
+      },
+      {
+        "tag": "ragging issue in college",
+        "patterns": ["What is the university's policy on ragging and how is it enforced?Bye", 
+        "Are there any student organizations or groups that actively promote anti-ragging initiatives?", 
+        "Are there any counseling or support services available to victims of ragging?",
+        "Are there any disciplinary actions or consequences in place for those found guilty of ragging",
+        "How is the campus culture and environment monitored to prevent ragging?",
+        "What is the role of student leaders and senior students in preventing ragging on campus?",
+        "Are there any partnerships with local law enforcement agencies to monitor and prevent ragging?",
+        "What is the process for reporting incidents of ragging anonymously?",
+        "What is the Institute response to allegations of ragging from external stakeholders or media?",
+        "How does the Institute engage with parents or guardians of students to prevent ragging?",
+        "Does ragging happen in the campus?",
+        "Is ragging done by the students in the campus",
+        "Are there any campus safety resources available to parents or guardians of students?"
+
+      ],
+        "responses": [
+          "Ragging are strictly banned in campus",
+          "Ragging are not allowed in Institute or Campus",
+          "student can report on Antiragging Government portal or college Dean",
+          "Ragging are illegal in campus or institute",
+          "Institute will takes strictly actions"
+        ]
+      },
+      {
+        "tag": "Activity",
+        "patterns": [
+          "What types of sports tournaments are held in college and how often are they organized?",
+          "Are there any prizes or awards for the winners of the sports tournaments?",
+          "Are there any collaborations with other colleges or universities to host intercollegiate sports tournaments?",
+          "Inter-college sports events are organized",
+          "seminars",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "Institute are held or organized different type of sports events like Cricket, football, kabaddi, basketball and many more.",
+          "There are many cultural or sports events are organized",
+          "awards are provide for winners in sports tournments",
+          "there are many seminars are held by institute or campus"
+        ]
+      },
+      {
+        "tag": "transportation",
+        "patterns": [
+          "Is there a bus stop near the campus?",
+          "What is the public transportation system like in this area?",
+          "What is the most reliable form of transportation in this area?",
+          "How can I get a bus pass for the semester?",
+          "How can I get a bus pass from the institute?",
+          "Are there any discounts available for students who frequently use the buses?",
+          "What is the best route to take to get to campus by bus?",
+          "How much does it cost to ride the bus here?",
+          "How much are the bus fees charges!",
+          ""
+        ],
+        "responses": [
+          "Bus facilities are available in campus",
+          "Bus facilities are available in campus for students",
+          "Buses charges are depend on courses",
+          "Yes, You get bus pass from the Course Department"
+=======
         "tag": "Bba_Fee_Inquiry",
         "patterns": [
           "What are the charges for BBA course?",
@@ -132,6 +210,7 @@
         "responses": [
           "Yes , It's available,but unfortunately only for girls",
           "It's only available for girls"
+>>>>>>> main
         ]
       },
       {
